@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    color: #D2E5D2;
+    font-size: 20px;
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    padding: 5px;
+    background-color: #4C664C;
+}
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4C664C;
+}
+
+li.navbar {
+    float:right;
+}
+li.navbar a {
+    display: block;
+    color:#D2E5D2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navbar a:hover {
+    background-color: #111;
+}
+
+.background-image {
+    background-color: #4C664C;
+    background-image: url(raja\ ampat.png);
+    background-size: cover;
+    width: 100%;
+    height:90vh;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color:#D2E5D2;
+}
+
+h1.judul {
+    padding-top: 300px;
+    font-size: 60px;
+}
+
+input {
+    background-color: #4C664C;
+    border-color: #4C664C;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    color:  #D2E5D2;
+}
+
+.background-image::after{
+    background-image: linear-gradient(to bottom, transparent, #4C664c);
+    content:"";
+    display: block;
+    height: 50px;
+    bottom:4px;
+    position: absolute;
+    width:100%;
+}
+
+.content {
+    background-color: #4C664C;
+    padding-left: 50px;
+    padding-right:40px;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.footer{
+    background-color: #324332;
+    padding:20px;
+}
+
+ol.point {
+    padding-left: 40px;
+}
